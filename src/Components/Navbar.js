@@ -7,7 +7,7 @@ const Navbar = () => {
 				<Link to="/"> Tochukwu Sylvester Nwizu</Link>
 			</h5>
 
-			<nav className="my-md-0 mr-md-3 navbar-stuff">
+			<nav  className="my-md-0 mr-md-3 navbar-stuff">
 				<Link className="p-2 text-dark" to="/">
 					About
 				</Link>
