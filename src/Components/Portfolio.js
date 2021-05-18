@@ -1,4 +1,8 @@
 import quiz from "../../src/assets/images/code-quiz.png";
+import scheduler from "../../src/assets/images/work-day-scheduler.png";
+import dashboard from "../../src/assets/images/weather-dashboard.png";
+import movie from "../../src/assets/images/movie-hub.png";
+import slp from "../../src/assets/images/slp-goalden.png";
 
 const Portfolio = () => {
 	return (
@@ -10,56 +14,42 @@ const Portfolio = () => {
 					<div className="pf">
 						<a href="https://toksly.github.io/Code-quiz/" target="_blank"></a>
 						<img src={quiz} height="400px" width="600px" />
-						{/* <img
-							src={quiz}
-							alt="start quiz page"
-							height="400px"
-							width="600px"
-							class="pftitle"
-						/> */}
+						
+						
 						<a href="https://toksly.github.io/Code-quiz/" target="_blank">
-							Code-quiz
+							
 						</a>
+							
 					</div>
 
 					<div className="pf">
 						<a
-							href="https://toksly.github.io/Work-day-Scheduler/"
-							target="_blank"
+							href="https://toksly.github.io/Work-day-Scheduler/" target="_blank"
+							
 						></a>
-						<img
-							src="./assets/images/work-day-scheduler.png"
-							alt="activity page"
-							height="400px"
-							width="600px"
-						/>
+						<img src={scheduler} height="400px" width="600px"/>
+							
 
-						<div className="pftitle">
-							<a
-								href="https://toksly.github.io/Work-day-Scheduler/"
-								target="_blank"
-							>
-								Work-day-Scheduler
-							</a>
+						<div className="pfftitle">
+							
+								<a href="https://toksly.github.io/Work-day-Scheduler/" target="_blank">
+								
+							Work-Day-Scheduler
+								</a>
 						</div>
 					</div>
 					<div className="pf">
-						<a
-							href="https://toksly.github.io/Weather-Dashboard//"
-							target="_blank"
+						
+							<a href="https://toksly.github.io/Weather-Dashboard//" target="_blank"
+							
 						></a>
-						<img
-							src="./assets/images/weather-dashboard.png"
-							alt="city search page"
-							height="400px"
-							width="600px"
-						/>
-						<div className="pftitle">
+						<img src={dashboard} height="400px" width="600px" />
+							
+						
+						<div className="ptitle">
 							<a
-								href="https://toksly.github.io/Weather-Dashboard//"
-								target="_blank"
-							>
-								Weather Dashboard
+								href="https://toksly.github.io/Weather-Dashboard//" target="_blank">
+								  Weather-Dashboard
 							</a>
 						</div>
 					</div>
@@ -67,20 +57,16 @@ const Portfolio = () => {
 						<a
 							href="https://clintonstrange.github.io/movie-hub//"
 							target="_blank"
+							
 						></a>
-						<img
-							src="./assets/images/movie-hub.png"
-							alt="watch and seen lists page"
-							height="400px"
-							width="600px"
-						/>
+						<img src={movie} height="400px" width="600px" />
+							
+						
 
-						<div className="pftitle">
-							<a
-								href="https://clintonstrange.github.io/movie-hub//"
-								target="_blank"
-							>
-								movie-hub
+						<div className="ptitle">
+						
+								<a href="https://clintonstrange.github.io/movie-hub//"target="_blank">
+								    movie-hub
 							</a>
 						</div>
 					</div>
@@ -89,13 +75,10 @@ const Portfolio = () => {
 							href="https://github.com/Craig5117/slp-goalden"
 							target="_blank"
 						></a>
-						<img
-							src="./assets/images/slp-goalden.png"
-							alt="login page"
-							height="400px"
-							width="600px"
-						/>
-						<div className="pftitle">
+
+						<img src={slp} height="400px" width="600px" />
+						
+						<div className="ptitle">
 							<a href="https://slp-goalden.herokuapp.com/" target="_blank">
 								slp-goalden
 							</a>
