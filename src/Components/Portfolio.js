@@ -11,16 +11,17 @@ const Portfolio = () => {
 				<h1 id="title">portfolio</h1>
 				<br />
 				<div class="portfolio">
+
 					<div className="pf">
 						<a href="https://toksly.github.io/Code-quiz/" target="_blank"></a>
 						<img src={quiz} height="400px" width="600px" />
-						
-						
+						<div className="pftite">
+
+						</div>
 						<a href="https://toksly.github.io/Code-quiz/" target="_blank">
-							
-						</a>
-							
-					</div>
+							code-quiz
+							</a>
+							</div>
 
 					<div className="pf">
 						<a
@@ -61,8 +62,6 @@ const Portfolio = () => {
 						></a>
 						<img src={movie} height="400px" width="600px" />
 							
-						
-
 						<div className="ptitle">
 						
 								<a href="https://clintonstrange.github.io/movie-hub//"target="_blank">
@@ -75,13 +74,14 @@ const Portfolio = () => {
 							href="https://github.com/Craig5117/slp-goalden"
 							target="_blank"
 						></a>
-
 						<img src={slp} height="400px" width="600px" />
-						
+
 						<div className="ptitle">
+
 							<a href="https://slp-goalden.herokuapp.com/" target="_blank">
 								slp-goalden
 							</a>
+
 							<div className="pf">
 						
 							<a href="https://toksly-book-search-engine.herokuapp.com/" target="_blank"
